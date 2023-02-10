@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tudo sobre Google Glass</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<script language="javascript" src="javascript/funcoes.js"></script>
+<body>
+  <div id="interface">
+    <header id="cabecalho">
+      <hgroup>
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
+      </hgroup>
+      <img id="icone" src="imagens/multimidia.png" alt="Google Glass">
+      <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul>
+          <li onmouseover="mudafoto('imagens/home.png')" onmouseout="mudafoto('imagens/multimidia.png')"><a href="index.html">Home</a></li>
+          <li onmouseover="mudafoto('imagens/especificacoes.png')" onmouseout="mudafoto('imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+          <li onmouseover="mudafoto('imagens/fotos.png')" onmouseout="mudafoto('imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+          <li onmouseover="mudafoto('imagens/multimidia.png')" onmouseout="mudafoto('imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+          <li onmouseover="mudafoto('imagens/contato.png')" onmouseout="mudafoto('imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="corpo-full">
+      <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+          <hgroup>
+            <h3>Glass > Multimídia</h3>
+            <h1>Sons e Vídeos</h1>
+            <h2>por Felipe Santinho</h2>
+            <h3 class="direita">Atualizado em 05/Agosto/2022</h3>
+          </hgroup>
+        </header>
+        <div id="tv-radio">
+          <audio id="musica" src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" controls></audio>
+          <video id="filme" src="media/getting-started.mp4" type="video/mp4" poster="imagens/video-mini03.jpg" controls>   </video>
+        </div>
+      </article>
+    </section>
+    <footer id="rodape">
+      <p>
+        Copyright 2022 - by Felipe Santinho <br>
+        <a href="https://github.com/felipesantinho" target="_blank">GitHub </a>
+      </p>
+    </footer>
+  </div>  
+</body>
+</html>
